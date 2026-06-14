@@ -48,6 +48,8 @@ def get_current_weather(city: str) -> str:
             f"{response.json()}"
         )
 
-if __name__ == "__main__":
+def main():
     mcp.run()
 
+if __name__ == "__main__":
+    main()
